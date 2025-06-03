@@ -32,7 +32,7 @@ cd Flask-Apps
 2. Go into any app folder you want to run. Example:
 
 ```bash
-cd "TODO_APP (Bootstrap + Deployed)"
+cd "TODO_APP (Bootstrap)"
 ```
 
 3. Create a virtual environment:
