@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Form page{% endblock %}
+
+{% block content %}
+<h2>Send Your Feedback</h2>
+<form method="POST" action="/">
+
+    <label>Your Name</label><br>
+    <input type="text" name="username" placeholder="enter your name"><br><br>
+    <input type="submit" value="Submit">
+
+</form>
+
+{% endblock %}

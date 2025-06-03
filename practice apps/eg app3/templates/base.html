@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            {% block title %}My Feedback Site{% endblock %}
+        </title>
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif; padding: 20px; background-color: #f5f5f5;}
+            header {background-color: #333; color: white; padding: 10px 0; text-align: center;}
+            nav {margin: 0 10px; color: white; text-decoration: none;}
+            main{background-color: white; padding: 20px; margin-top: 20px; border-radius: 5px;}
+        </style>
+    </head>
+    <body>
+<header>
+    <h1>Feedback Page</h1>
+    <nav>
+        <a href="/feedback">Feedback</a>
+    </nav>
+</header>
+
+<main>
+    {% block content %} {% endblock %}
+</main>
+
+<footer>
+    <p>&copy; 2025 TADNS Site</p>
+</footer>
+
+    </body>
+</html>
